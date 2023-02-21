@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d8c40ff41b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Quote of the Day</title>
+</head>
+
+<body>
+    <div class="container">
+        <main>
+            <h1>Quote of the Day</h1>
+            <p class="quote" id="quote">Quote is loading...</p>
+            <p class="author" id="author">Name of Author</p>
+        </main>
+        <section>
+            <button class="btn-quote" onclick="getQuote(api_url)">New Quote</button>
+            <button class="btn-share" onclick="tweet()"><i class="fa-brands fa-twitter pad"></i>Tweet</button>
+        </section>
+    </div>
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>

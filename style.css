@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url('./img/quote-image.jpg');
+    background-position: center;
+    background-size: cover;
+    line-height: 1.6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.quote {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.author {
+    font-size: 15px;
+    text-align: end;
+    margin: 20px 0;
+}
+
+.btn-quote {
+    padding: 12px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #222;
+    color: #fff;
+    border: none;
+}
+
+.btn-share {
+    padding: 12px 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #222;
+    border: none;
+}
+
+.pad {
+    margin-right: 3px;
+}
